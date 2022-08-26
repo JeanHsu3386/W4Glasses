@@ -1,0 +1,25 @@
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.indexLink {
+    li a {
+        color: blue;
+        text-decoration: none;
+    }
+    li a:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+    li a:visited {
+        text-decoration: none;
+    }
+}
+@media (max-width: 992px){
+  
+}
+@media (max-width: 767px){
+  
+}
+

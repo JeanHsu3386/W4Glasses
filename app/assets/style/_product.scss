@@ -1,0 +1,253 @@
+.navSub {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    a {
+        text-decoration: none;
+        color:#000;
+    }
+    .navSubItem {
+        width: 33.333%;
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        color: #000;
+        text-decoration: none;
+        border-right: 1px solid #DCDCDC;   
+        border-left: 1px solid #DCDCDC;
+        border-bottom: 1px solid #DCDCDC;
+        padding: 24px 0;
+    }
+    .navSubItem:hover {
+        border-bottom: 8px solid #AA0601;
+        padding: 24px 0 16px 0;
+    }
+    .navSubItem:visited {
+        border-bottom: 1px solid #DCDCDC;
+        padding: 24px 0;
+    }
+    .navSubItemuse {
+        width: 33.333%;
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        color: #000;
+        text-decoration: none;
+        border-right: 1px solid #DCDCDC;   
+        border-left: 1px solid #DCDCDC;
+        border-bottom: 8px solid #AA0601;
+        padding: 24px 0 16px 0;
+    }
+}
+.topImg {
+    display: flex;
+    .imgA {
+        width: 50%;
+        height: 296px;
+        background-image: url(../images/product-header-1.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center center;
+    }
+    .imgB {
+        width: 50%;
+        height: 296px;
+        background-image: url(../images/product-header-2.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center center;
+    }
+}
+.proTitle {
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+}
+.proSubTitle {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.proList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: -12px;
+    margin-left: -12px;
+    .proCard {
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 12px;
+        padding-left: 12px;
+        margin-bottom: 80px;
+    }
+    .proImg {
+        width: 100%;
+        height: auto;
+        display:block
+    }
+    .proName {
+        width: 50%;
+        font-size: 24px;
+        text-align: left;
+    }
+    .proPrice {
+        width: 50%;
+        font-size: 24px;
+        color: #AA0601;
+        text-align: right;
+        font-weight: 500;
+    }
+    .proColor {
+        display: flex;
+        .colorCube1 {
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            border: none;
+            background-color: #5F3E2D;
+            margin-right: 8px;
+        }
+        .cubeOrange {
+            background-color: #B75929;
+        }
+     }
+}
+.navPage {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    .navPagePre a {
+        border: 1px solid #555;
+        color:#555;
+        border-right: none;
+        padding: 12px;
+    }
+    .navPagePre a:hover {
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+    }
+    .navPageItem a {
+        border: 1px solid #555;
+        padding: 12px 16px;
+        border-right: none;
+    }
+    .navPageItem a:hover {
+        color: #fff;
+        background-color: #000;
+        text-decoration: none;
+    }
+    .navPageItemUse a {
+        border: 1px solid #555;
+        padding: 12px 16px;
+        border-right: none;
+        color:#fff;
+        background-color: #000;
+    }
+    .navPageItemUse a:hover {
+        text-decoration: none;
+    }
+    .navPageNext a {
+        border: 1px solid #555;
+        padding: 12px;
+        color:#555;
+        background-color: #F2F2F2;
+        text-decoration: none;
+    }
+    .navPageNext a:hover {
+        color:#fff;
+        background-color: #000;
+    }   
+}
+@media (max-width: 992px){ 
+    .navSub {
+        width: 100%;
+        .navSubItem {
+            font-size: 24px;
+            padding: 16px 0;
+        }
+        .navSubItem:hover {
+            border-bottom: 8px solid #AA0601;
+            padding: 16px 0 8px 0;
+        }
+        .navSubItem:visited {
+            padding: 16px 0;
+        }
+        .navSubItemuse {
+            font-size: 24px;
+            padding: 16px 0 9px 0;
+        }
+    }
+    .proList {
+        .proCard {
+            width: 50%;
+            margin-bottom: 40px;
+        } 
+    }
+}
+@media (max-width: 767px){
+    .navSub {
+        width: 100%;
+        .navSubItem {
+            font-size: 16px;
+            padding: 16px 0;
+        }
+        .navSubItem:hover {
+            border-bottom: 8px solid #AA0601;
+            padding: 16px 0 8px 0;
+        }
+        .navSubItem:visited {
+            border-bottom: 1px solid #DCDCDC;
+            padding: 16px 0;
+        }
+        .navSubItemuse {
+            font-size: 16px;
+            padding: 16px 0 9px 0;
+        }
+    }
+    .topImg {
+        display: flex;
+        .imgA {
+            height: 136px;
+        }
+        .imgB {
+            height: 136px;
+        }
+    }
+    .proTitle {
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .proSubTitle {
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .proList {
+        display: flex;
+        flex-wrap: wrap;
+        .proCard {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding-right: 14px;
+            padding-left: 14px;
+            margin-bottom: 24px;
+        }
+        .proImg {
+            width: 100%;
+            height: auto;
+            display:block
+        }
+    }
+    .navPage {
+        font-size: 16px;
+    }
+}
+
